@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-export default function page() {
+export default function SignUp() {
   const form = useRef<any>();
   const [sent, setSent] = useState(false);
 
@@ -32,7 +32,7 @@ export default function page() {
     <div>
       {!sent && (
         <div className="bg-slate-300 m-auto p-6 rounded-lg shadow-lg w-96">
-          <form className="flex flex-col" onSubmit={sendEmail} ref={form}>
+          <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
             <fieldset className="flex flex-col mb-4">
               <legend className="text-xl font-bold mb-2">Personal Info:</legend>
               <label className="mb-2">
