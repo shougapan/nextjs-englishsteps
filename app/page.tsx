@@ -21,8 +21,8 @@ export default function Home() {
           <h2 className="text-2xl mb-6">The best English school in Osaka</h2>
           <p className="text-lg mb-4">
             Here at English Steps, we specialize in teaching teenagers Eiken. If
-            you're interested, come along. We offer affordable prices, so please
-            check us out.
+            you&apos;re interested, come along. We offer affordable prices, so
+            please check us out.
           </p>
           <p className="text-lg mb-4">
             At English Steps, we teach teenagers and adults. We specialize in
@@ -93,7 +93,6 @@ export default function Home() {
             width="100%"
             height="100%"
             frameBorder="0"
-            allowFullScreen=""
             loading="lazy"
             style={{ position: "absolute", top: "0", left: "0" }}
           ></iframe>
