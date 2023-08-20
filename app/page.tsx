@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
           <h2 className="text-2xl mb-6">The best English school in Osaka</h2>
           <p className="text-lg mb-4">
-            Here at English Steps, we specialize in teaching teenagers Eiken. If
+            Here at English Steps, we specialize in teaching Eiken. If
             you&apos;re interested, come along. We offer affordable prices, so
             please check us out.
           </p>
@@ -102,7 +102,7 @@ export default function Home() {
         </h1>
         <Image
           className="border-solid border-4 border-white rounded shadow"
-          src="/access1.jpg"
+          src="/access2.jpg"
           alt="me"
           width={750}
           height={500}
